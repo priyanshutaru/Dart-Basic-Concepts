@@ -1,0 +1,88 @@
+Operator is used to perform all the logical or calculative type work,
+there are two things in the Operator operator and the operandes.
+there are multiple type of operator in the dart,
+2+3 here the 2,3 are the operandes and the the + is the operator.
+
+types of the operator:
+
+1: Arithmetic operator
+2: Increment and the decrement operator
+3: Assignment Operator
+4: Logical Operator
+5: Type test operandes
+
+******************Arithmetic Operator *************************************
+
+Arithmetic Operators
+Arithmetic operators are the most common types of operators. They perform operations like addition, subtraction, multiplication, division, etc.
+
+Operator Symbol	Operator Name	Description
++	   Addition	For adding two operands
+-	    Subtraction	For subtracting two operands
+-expr	Unary Minus	For reversing the sign of the expression
+*	    Multiplication	For multiplying two operands
+/	    Division	For dividing two operands and give output in double
+~/	    Integer Division	For dividing two operands and give output in integer
+%	    Modulus	Remainder After Integer Division
+
+******************Increment and the decrement Operator *************************************
+
+Increment and Decrement Operators
+With increment and decrement operators, you can increase and decrease values. If ++ is used at the beginning, then it is a prefix. If it is used at last, then it is postfix.
+
+Operator Symbol	Operator Name	Description
+++var	Pre Increment	Increase Value By 1. var = var + 1 Expression value is var+1
+--var	Pre Decrement	Decrease Value By 1. var = var - 1 Expression value is var-1
+var++	Post Increment	Increase Value By 1. var = var + 1 Expression value is var
+var--	Post Decrement	Decrease Value By 1. var = var - 1 Expression value is var
+ Info
+Note: ++var increases the value of operands, whereas var++ returns the actual value of operands before the increment.
+
+******************Assignment Operator *************************************
+
+Assignment Operators
+It is used to assign some values to variables. Here, we are assigning 24 to the age variable.
+
+int age = 24;
+Operator Type	Description
+=	Assign a value to a variable
++=	Adds a value to a variable
+-=	Reduces a value to a variable
+*=	Multiply value to a variable
+/=	Divided value by a variable
+
+******************Relational Operator *************************************
+
+Relational Operators
+Relational operators are also called comparison operators. They are used to make a comparison.
+
+Operator Symbol	Operator Name	Description
+>	Greater than	            Used to check which operand is bigger and gives result as boolean
+<	Less than	                Used to check which operand is smaller and gives result as boolean
+>=	Greater than or equal to	Used to check which operand is bigger or equal and gives result as boolean
+<=	Less than or equal to	    Used to check which operand is smaller or equal and gives result as boolean
+==	Equal to	                Used to check operands are equal to each other and gives result as boolean
+!=	Not equal to	            Used to check operand are not equal to each other and gives result as boolean
+
+
+******************Logical Operator *************************************
+
+Logical Operators
+It is used to compare values.
+
+Operator Type	Description
+&&	This is ‘and’, return true if all conditions are true
+||	This is ‘or’. Return true if one of the conditions is true
+!	This is ’not’. return false if the result is true and vice versa
+
+
+******************type test Operator *************************************
+
+
+Type Test Operators
+In Dart, type test operators are useful for checking types at runtime.
+
+Operator Symbol	Operator Name	Description
+is	is	Gives boolean value true if the object has a specific type
+is!	is not	Gives boolean value false if the object has a specific type
+
