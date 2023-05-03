@@ -10,4 +10,6 @@ void main() {
   // }
 
   print(isLoading?"Loading...":"Not Loading...");//this is the correct way 
+
+  //Now ageing start the ternary example in new forlder.
 }
