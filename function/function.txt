@@ -1,0 +1,15 @@
+
+
+function have 3 part
+return type
+function name
+parameeteres
+
+
+types of function 
+
+four types of function in dart
+No Parameter And No Return Type
+Parameter And No Return Type
+No Parameter And Return Type
+Parameter And Return Type
