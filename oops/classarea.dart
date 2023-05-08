@@ -19,8 +19,6 @@ void main(){
   area.width = 2.048;
 
   area.display();
-  
-  
 
 
 }
