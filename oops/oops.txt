@@ -26,3 +26,28 @@ Mixin in Dart,
 Factory Constructor in Dart, and
 Generics in Dart.
 Practice Questions
+
+class Solution {
+public:
+    vector<int> spiralOrder(vector<vector<int>>& matrix) {
+        int r = matrix.size();
+        int c = matrix[0].size();
+        vector<int> ans(r * c);
+        int i, j, cn = 0;
+        for(i = 0; cn < r * c && i < ceil(r / 2.0); i++) {
+            for(j = i; cn < r * c && j < c - i; j++) {
+                ans[cn++] = matrix[i][j];
+            }
+            for(j = i + 1; cn < r * c && j < r - i - 1; j++) {
+                ans[cn++] = matrix[j][c - i - 1];
+            }
+            for(j = c - i - 1; cn < r * c && j >= i; j--) {
+                ans[cn++] = matrix[r - i - 1][j];
+            }
+            for(j = r - i - 2; cn < r * c && j > i; j--) {
+                ans[cn++] = matrix[j][i];
+            }
+        }
+        return ans;
+    }
+};
